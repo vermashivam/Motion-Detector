@@ -9,6 +9,8 @@ import cv2
 import numpy as np
 
 cap = cv2.VideoCapture('pmotion.mp4')
+#for capturing video instead of file, replace filename with device config
+#cap = cv2.VideoCapture(0)
 ret, frame1 = cap.read()
 ret, frame2 = cap.read()
 
